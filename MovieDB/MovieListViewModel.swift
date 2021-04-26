@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MoviewListViewModel: DataBinding {
+class MovieListViewModel: DataBinding {
     
     var dataBinding: (() -> Void)?
     

@@ -19,7 +19,7 @@ class MoviesDataSource: NSObject, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         guard let movie = self.movies?[indexPath.row],
-              let moviewCell = collectionView.dequeueReusableCell(withReuseIdentifier: MoviewCollectionViewCell.identifier, for: indexPath) as? MoviewCollectionViewCell else {
+              let moviewCell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCollectionViewCell.identifier, for: indexPath) as? MovieCollectionViewCell else {
             fatalError("Unable to deque Cell")
         }
         

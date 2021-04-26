@@ -12,11 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet private weak var moviewDBCollectionView: UICollectionView!
     {
         didSet {
-            self.moviewDBCollectionView.register(UINib(nibName: MoviewCollectionViewCell.identifier, bundle: Bundle.main), forCellWithReuseIdentifier: MoviewCollectionViewCell.identifier)
+            self.moviewDBCollectionView.register(UINib(nibName: MovieCollectionViewCell.identifier, bundle: Bundle.main), forCellWithReuseIdentifier: MovieCollectionViewCell.identifier)
         }
     }
     
-    private lazy var viewModel = MoviewListViewModel()
+    private lazy var viewModel = MovieListViewModel()
     private lazy var dataSource = MoviesDataSource()
     
     

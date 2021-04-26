@@ -18,9 +18,9 @@
 		2BE0238E26342559003C768F /* MovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0238D26342559003C768F /* MovieDBUITests.swift */; };
 		2BE0239F26342EBB003C768F /* AppUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0239E26342EBB003C768F /* AppUtilities.swift */; };
 		2BE023A426342F2A003C768F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023A326342F2A003C768F /* AppConstants.swift */; };
-		2BE023B2263432D2003C768F /* MoviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023B0263432D2003C768F /* MoviewCollectionViewCell.swift */; };
+		2BE023B2263432D2003C768F /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023B0263432D2003C768F /* MovieCollectionViewCell.swift */; };
 		2BE023B3263432D2003C768F /* MoviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE023B1263432D2003C768F /* MoviewCollectionViewCell.xib */; };
-		2BE023BD26343D72003C768F /* MoviewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023BC26343D72003C768F /* MoviewListViewModel.swift */; };
+		2BE023BD26343D72003C768F /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023BC26343D72003C768F /* MovieListViewModel.swift */; };
 		2BE023C226343DDA003C768F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023C126343DDA003C768F /* Models.swift */; };
 		2BE023C726343E72003C768F /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023C626343E72003C768F /* APIRequestManager.swift */; };
 		2BE023D52634724E003C768F /* MoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE023D42634724E003C768F /* MoviesDataSource.swift */; };
@@ -65,9 +65,9 @@
 		2BE0238F26342559003C768F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE0239E26342EBB003C768F /* AppUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilities.swift; sourceTree = "<group>"; };
 		2BE023A326342F2A003C768F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		2BE023B0263432D2003C768F /* MoviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		2BE023B0263432D2003C768F /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		2BE023B1263432D2003C768F /* MoviewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviewCollectionViewCell.xib; sourceTree = "<group>"; };
-		2BE023BC26343D72003C768F /* MoviewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewListViewModel.swift; sourceTree = "<group>"; };
+		2BE023BC26343D72003C768F /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		2BE023C126343DDA003C768F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		2BE023C626343E72003C768F /* APIRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 		2BE023D42634724E003C768F /* MoviesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDataSource.swift; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		2BE023FE26355AD2003C768F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				2BE023BC26343D72003C768F /* MoviewListViewModel.swift */,
+				2BE023BC26343D72003C768F /* MovieListViewModel.swift */,
 				2BE023EA26353F61003C768F /* MovieCellViewModel.swift */,
 			);
 			name = ViewModel;
@@ -209,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				2BE0236C26342558003C768F /* ViewController.swift */,
-				2BE023B0263432D2003C768F /* MoviewCollectionViewCell.swift */,
+				2BE023B0263432D2003C768F /* MovieCollectionViewCell.swift */,
 				2BE023B1263432D2003C768F /* MoviewCollectionViewCell.xib */,
 			);
 			name = View;
@@ -348,9 +348,9 @@
 			files = (
 				2BE0240826355B93003C768F /* Movie+CoreDataClass.swift in Sources */,
 				2BE0240926355B93003C768F /* Movie+CoreDataProperties.swift in Sources */,
-				2BE023BD26343D72003C768F /* MoviewListViewModel.swift in Sources */,
+				2BE023BD26343D72003C768F /* MovieListViewModel.swift in Sources */,
 				2BE0236D26342558003C768F /* ViewController.swift in Sources */,
-				2BE023B2263432D2003C768F /* MoviewCollectionViewCell.swift in Sources */,
+				2BE023B2263432D2003C768F /* MovieCollectionViewCell.swift in Sources */,
 				2BE023C226343DDA003C768F /* Models.swift in Sources */,
 				2BE023A426342F2A003C768F /* AppConstants.swift in Sources */,
 				2BE023EB26353F61003C768F /* MovieCellViewModel.swift in Sources */,
