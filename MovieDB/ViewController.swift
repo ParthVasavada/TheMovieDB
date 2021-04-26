@@ -9,10 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet private weak var moviewDBCollectionView: UICollectionView!
+    @IBOutlet private weak var movieDBCollectionView: UICollectionView!
     {
         didSet {
-            self.moviewDBCollectionView.register(UINib(nibName: MovieCollectionViewCell.identifier, bundle: Bundle.main), forCellWithReuseIdentifier: MovieCollectionViewCell.identifier)
+            self.movieDBCollectionView.register(UINib(nibName: MovieCollectionViewCell.identifier, bundle: Bundle.main), forCellWithReuseIdentifier: MovieCollectionViewCell.identifier)
         }
     }
     
@@ -29,12 +29,12 @@ class ViewController: UIViewController {
     
     private func initialSetup() {
         
-        self.moviewDBCollectionView.dataSource = self.dataSource
-        self.moviewDBCollectionView.delegate = self
+        self.movieDBCollectionView.dataSource = self.dataSource
+        self.movieDBCollectionView.delegate = self
         
         viewModel.dataBinding = { [weak self] in
             self?.dataSource.movies = self?.viewModel.movies
-            self?.moviewDBCollectionView.reloadData()
+            self?.movieDBCollectionView.reloadData()
         }
     }
     
@@ -64,7 +64,7 @@ extension ViewController : UICollectionViewDelegate {
         alert.addAction(UIAlertAction(title: Constants.YesText, style: .default , handler:{ (UIAlertAction)in
             selectedMovie.favourite = !selectedMovie.favourite
             if let _ = try? selectedMovie.managedObjectContext?.save() {
-                self.moviewDBCollectionView.reloadData()
+                self.movieDBCollectionView.reloadData()
             }
         }))
         

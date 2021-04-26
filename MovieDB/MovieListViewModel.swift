@@ -1,5 +1,5 @@
 //
-//  MoviewListViewModel.swift
+//  MovieListViewModel.swift
 //  MovieDB
 //
 //  Created by Parth Vasavada on 24/04/21.

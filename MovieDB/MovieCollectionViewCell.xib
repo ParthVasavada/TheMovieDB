@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -10,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoviewCollectionViewCell" id="gTV-IL-0wX" customClass="MovieCollectionViewCell" customModule="MovieDB" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieCollectionViewCell" id="gTV-IL-0wX" customClass="MovieCollectionViewCell" customModule="MovieDB" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="138" height="214"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -64,8 +63,8 @@
             <size key="customSize" width="138" height="214"/>
             <connections>
                 <outlet property="favouriteLabel" destination="rt5-Dm-lsm" id="SUO-aJ-63P"/>
-                <outlet property="moviewImageView" destination="57i-7p-CcK" id="8PB-ae-RwG"/>
-                <outlet property="moviewTitleLabel" destination="kn9-Al-hhx" id="cvj-Ak-Yv5"/>
+                <outlet property="movieImageView" destination="57i-7p-CcK" id="8PB-ae-RwG"/>
+                <outlet property="movieTitleLabel" destination="kn9-Al-hhx" id="cvj-Ak-Yv5"/>
             </connections>
             <point key="canvasLocation" x="-100.00000000000001" y="50.223214285714285"/>
         </collectionViewCell>

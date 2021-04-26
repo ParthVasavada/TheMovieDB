@@ -1,5 +1,5 @@
 //
-//  MoviewCollectionViewCell.swift
+//  MovieCollectionViewCell.swift
 //  MovieDB
 //
 //  Created by Parth Vasavada on 24/04/21.
@@ -9,11 +9,11 @@ import UIKit
 
 class MovieCollectionViewCell: UICollectionViewCell {
     
-    static let identifier = "MoviewCollectionViewCell"
+    static let identifier = "MovieCollectionViewCell"
 
-    @IBOutlet private weak var moviewImageView: UIImageView!
+    @IBOutlet private weak var movieImageView: UIImageView!
     
-    @IBOutlet private weak var moviewTitleLabel: UILabel!
+    @IBOutlet private weak var movieTitleLabel: UILabel!
     
     @IBOutlet private weak var favouriteLabel: UILabel!
     
@@ -28,7 +28,7 @@ class MovieCollectionViewCell: UICollectionViewCell {
      */
     
     func updateTitle(_ title: String) {
-        self.moviewTitleLabel.text = title
+        self.movieTitleLabel.text = title
     }
     
     /**
@@ -37,7 +37,7 @@ class MovieCollectionViewCell: UICollectionViewCell {
      */
     
     func updateMovieImage(_ image: UIImage) {
-        self.moviewImageView.image = image
+        self.movieImageView.image = image
     }
     
     /**

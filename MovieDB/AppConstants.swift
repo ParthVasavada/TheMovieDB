@@ -21,9 +21,9 @@ enum Constants {
     
     static let getMethod = "Get"
     
-    static let favouriteTitle = "Do you want to make this movie unfavourite?"
+    static let favouriteTitle = "Do you mark this movie favourite?"
     
-    static let unFavouriteTitle = "Do you mark this movie favourite?"
+    static let unFavouriteTitle = "Do you want to make this movie unfavourite?"
     
     static let YesText = "Yes"
     
